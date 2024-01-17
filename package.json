@@ -10,7 +10,7 @@
     "lint": "eslint src/**/*.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Francis Bejosano <francis.bejosano@siteminder.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.4",
