@@ -18,7 +18,7 @@ pipeline(
   characterFilter,
   messageFormatter,
   logger,
-  (error: Error) => {
+  (error: Error | null) => {
     if (error) {
       logger.error(error.message)
     }
